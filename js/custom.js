@@ -36,7 +36,7 @@ for (i=0; i < cartList.length; i++){
   '<div class="row main align-items-center">'+
        '<div class="col-2"><img class="img-fluid" src="images/'+cartList[i].itemPic+'" id="itemPicture"></div><div class="col"><div class="row text-muted">Shirt</div><div class="row">'+cartList[i].itemName+'</div></div>'+
        '<div class="col"> <a href="#">-</a><a href="#" class="border">1</a><a href="#">+</a> </div>'+
-       '<div class="col">$'+cartList[i].amount+' <span class="close" id="remove">&#10005;</span></div>'+
+       '<div class="col">$'+cartList[i].amount+' <button class="close" id="remove" onclick = "onRemoveClicked()";>&#10005;</button></div>'+
    '</div>'+
 '</div>';
 document.getElementById("xx").innerHTML += text;
@@ -57,13 +57,17 @@ document.getElementById("vatsPrice").innerHTML = vatPrice.toFixed(2);
 
 }
 function onClearCartClicked(){
-  document.getElementById("xx").innerHTML = "";
+  cartList=[]
+ console.log(JSON.stringify(cartList))
+ /* document.getElementById("xx").innerHTML = "";
   document.getElementById("numberOfItems").innerHTML = 0 + " " + "item";
   document.getElementById("subTotal").innerHTML = 0.00;
   document.getElementById("Total").innerHTML = 0.00;
-  document.getElementById("vatsPrice").innerHTML = 0.00;
+  document.getElementById("vatsPrice").innerHTML = 0.00;*/
 }
-
+function onRemoveClicked(){
+  text = "";
+}
 /* function ifButtonIsClicked(buttonclick){ 
    
 if (buttonclick == true){
