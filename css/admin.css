@@ -1,0 +1,22 @@
+nav{
+    margin: bottom 50px;;
+
+}
+.navbar-brand {
+    display: block;
+    border-left: 340px;
+    border-right:330px;
+}
+.nav-link {
+    color: rgb(126, 125, 125);
+    
+}
+.nav-link:hover{
+    color: black;
+}
+.ml-auto{
+    margin-right: 100px;
+}
+.bigger{
+    font-size: larger;
+}
