@@ -1,4 +1,0 @@
- 
- '<a href="#" onclick="reduce('+i+')">-</a>' +
-               '<a href="#" id="item-count'+i+'" class="border">1</a>' +
-               '<a href="#" onclick="increase('+i+')">+</a>'
