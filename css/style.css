@@ -18,7 +18,7 @@ body {
 
 .hero{
     background-image: url("../images/fashion1.jpg");
-    background-size: fill
+    background-size: fill;
     background-repeat: no-repeat;
     margin: 0;
     padding: 50px;
@@ -31,12 +31,12 @@ body {
 
 .fontRoboto{
     font-family: "Satisfy", sans-serif;
-    font-size: 1.5em
+    font-size: 1.5em;
 }
 .fontAmount{
     text-align: center;
     font-size: 1.2em;
-    font-family: : "Audiowide", sans-serif;
+    font-family: "Audiowide", sans-serif;
     color: red;
 
 }
